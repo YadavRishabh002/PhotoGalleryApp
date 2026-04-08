@@ -4,20 +4,17 @@
     android:orientation="vertical"
     android:padding="20dp"
     android:gravity="center">
-
     <Button
         android:id="@+id/btnCapture"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Take Photo"
         android:layout_marginBottom="20dp"/>
-
     <Button
         android:id="@+id/btnViewGallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Open Photo Gallery"/>
-
     <GridView
         android:id="@+id/gridView"
         android:layout_width="match_parent"
@@ -28,3 +25,4 @@
         android:layout_marginTop="20dp"
         android:visibility="gone"/>
 </LinearLayout>
+

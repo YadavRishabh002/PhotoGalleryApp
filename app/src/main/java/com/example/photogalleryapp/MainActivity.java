@@ -1,5 +1,6 @@
 package com.example.photogalleryapp;
 
+
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -11,6 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     private boolean checkPermissions() {
         return ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED;
     }
@@ -54,3 +55,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+
